@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #333;
+}
+
+nav {
+    background-color: #fff; /* White navbar */
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* Center the content in the nav */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 0; /* Align to the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the logo */
+}
+
+.logo a {
+    color: gray; /* Make the text gray */
+    text-decoration: none; /* Optional: removes underline on the link */
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+.logo-other {
+    position: absolute; /* Position the left icon absolutely */
+    top: 10px; /* Align to the top */
+    left: 20px; /* Adjust space from left edge */
+}
+
+.logo-other a {
+    color: gray; /* Set icon color */
+    text-decoration: none; /* Removes any underline on the link */
+}
+
+.logo-other2 {
+    position: absolute; /* Position the right icon absolutely */
+    top: 10px; /* Align to the top */
+    right: 20px; /* Adjust space from right edge */
+}
+
+.logo-other2 a {
+    color: gray; /* Set icon color */
+    text-decoration: none; /* Removes any underline on the link */
+}
+
+/* Main content styling */
+.main-content {
+    display: flex; /* Use flexbox to arrange buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 200px; /* Adjust margin as needed */
+    gap: 10px; /* Optional: adds space between buttons instead of margin */
+}
+
+.text-main {
+    text-align: center;
+}
+
+.text-main a {
+    font-weight: bold;
+    font-size: 2rem; /* Adjust as needed for desired size */
+    color: #333; /* Optional: Set text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.button {
+    background-color: white; /* White background */
+    border: 2px solid gray; /* Gray border */
+    border-radius: 50px; /* Curved corners */
+    padding: 10px 20px; /* Adjust padding for a smaller button size */
+    color: gray; /* Text color */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+    width: 200px; /* Set a smaller fixed width for all buttons */
+    margin: 0; /* Remove space between buttons */
+}
+
+/* Optional: Add a hover effect */
+.button:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
+
+
+/* Additional styles for icon buttons */
+.button-main,
+.button-main2 {
+    text-align: center;
+}
+
+.search-container {
+    margin-left: 27%;
+    display: flex; /* Flexbox layout for search input and button */
+    align-items: center; /* Center items vertically */
+    margin-top: 220px; /* Adjust margin as needed */
+    border: 1px solid #ccc; /* Add a border to the search container */
+    border-radius: 25px; /* Rounded corners */
+    padding: 5px; /* Padding inside the search container */
+    background-color: #ffffff; /* Background color for the container */
+    width: 100%; /* Full width of the parent element */
+    max-width: 600px; /* Optional: set a maximum width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+.search-input {
+    flex-grow: 1; /* Allow input to grow */
+    padding: 10px; /* Padding inside the input */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline on focus */
+    border-radius: 25px; /* Match the container's corners */
+    margin-right: 50%; /* Space between input and button */
+}
+
+.search-button {
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
